@@ -1,0 +1,56 @@
+
+#cir>button
+{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: orangered;
+    float: left;
+    color: orangered;
+    margin-right: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+#btn{
+
+    color: orangered;
+    font-size: 18px;
+    border-color: orangered;
+    border-style: solid;   
+    margin-top: 15px;
+}
+
+#btnB{
+    color: blue;
+    font-size: 18px;
+    border-color: blue;
+    border-style: solid;
+    margin-right: 500px;
+    float: right;
+    margin-top: 15px;   
+
+
+}
+
+#sinup,#log,#faq{
+
+    background-color:    #dfebed  ;
+    align-self: center;
+    border-style: inherit;
+    border-color: red;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+#topBtn>button{
+    font-size: 18px;
+    margin-left: 20px;
+    border-style: inset;
+    background-color: white;
+
+}
+#first,#sec,#thr{
+    padding-right: 250px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
