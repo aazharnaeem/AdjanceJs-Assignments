@@ -1,12 +1,28 @@
 <html>
     <head>
-        <title>
-            To-do
-        </title>
-    </head>
-    <body>
-        <h1>To-do List!</h1>
 
-        <input type="text">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        TO-do List!
+    </title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+    <body>
+        <div id="main">
+
+        <h1>To-do List!</h1>
+        <input id="inp" type="text" placeholder="what to do?">
+        <br>
+        <button class="btn" onclick="adding()">ADD</button> <br>
+        <button onclick="remove()" class="btn" >Remove first</button>
+        <ul id="list"></ul>
+
+        </div>
+       
     </body>
+
+    <script src="./event.js"></script>
+
 </html>

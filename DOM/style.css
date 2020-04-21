@@ -11,11 +11,9 @@ h1{
 
 li{
     text-align: center;
-    list-style: none;
-    border-color: black;
-    border-style: solid;
+    list-style: lower-roman;
 }
-#add{
+.btn{
     background-color:  #40cac0;
     width: 250px;
     border-style: hidden;
@@ -27,5 +25,5 @@ li{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
-    border: solid;
+
 }
