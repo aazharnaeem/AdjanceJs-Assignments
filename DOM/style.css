@@ -12,7 +12,18 @@ h1{
 li{
     text-align: center;
     list-style: lower-roman;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style-position: inside;    
+    transition: 0.2s;
+    opacity: 0.6;
+    position: static;
 }
+li:hover{
+    opacity: 1;
+}
+
 .btn{
     background-color:  #40cac0;
     width: 250px;
@@ -26,4 +37,15 @@ li{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 
+}
+.close{
+    margin-left: 20px;
+    border-color:grey;
+    border: 1px solid grey;
+    font-size: 20px;
+}
+
+.close:hover{
+    color: grey;
+    background-color: black;
 }
