@@ -1,0 +1,32 @@
+.top{
+    display: inline;
+    opacity: 0.8;
+    color: gray;
+    padding-right: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.top:hover{
+    opacity: 1;
+    color: brown;
+}
+#top{
+
+    padding-bottom: 30px;
+}
+
+.shoe{
+    display: inline-block;
+    padding-right: 8px;
+}
+.shoe>img{
+    height: 250px;
+    width: 250px;
+}
+p{
+    opacity: 0.5;
+}
+
+#star{
+    content: '★ ';
+}
