@@ -19,14 +19,28 @@
     display: inline-block;
     padding-right: 8px;
 }
-.shoe>img{
+.im{
     height: 250px;
     width: 250px;
 }
 p{
     opacity: 0.5;
 }
-
-#star{
-    content: '★ ';
+.hov{
+    background-color: brown;
+    color: wheat;
+    border-style: none;
+    height: 30px;    
 }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+
+    position: absolute;
+    margin-top: -50px;
+    padding-left: 40px;
+    
+  }  
+  .shoe:hover .middle {
+    opacity: 1;
+  }
