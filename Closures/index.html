@@ -16,7 +16,7 @@
     <div>
 
         <div class="shoe">
-            <img src="./Images/1.jpg" alt="" class="im"> 
+            <img src="./Images/1.jpg" alt="" class="im"   onclick="cart()"  > 
             <div class="middle">
             <button class="hov">🤎 </button>
             <button class="hov">Add To Cart</button>
@@ -54,6 +54,62 @@
             </div>
             <p>lorem isspum dolor dummy</p>
             <p>$122.00</p>
+        </div>
+
+        <div id="crt">
+            <div id="crt-up">
+                <h4> <a id="icn"> &#x1F6D2;</a> Shopping Cart</h4>
+                 <output id="itm">0</output> item(s)-$
+                 <output id="price">0.0</output>
+            </div>
+            <div id="crt-low">
+              <table>
+
+                <img src="./Images/2.jpeg" alt="" height="80px" width="80px">
+                  <tr>
+                      <td>lorem</td>
+                      <td>x</td>
+                      <td> $<output>254.00</output></td>
+                      <td><button class="cut-btn" onclick="clos()">&#x2716;</button></td>
+                  </tr>
+                  <tr>
+                      <td>ippsum dolor</td>
+                      <td>1</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td>dummy</td>
+                  </tr>
+              </table>
+            </div>
+            <hr>
+            <div id="crt-end">
+              
+            <table>
+                <tr>
+                    <td>Sub Total</td>
+                    <td>$ <output>210.00</output></td>
+                </tr>
+                <tr>
+                    <td>Eco Tax(-2.00)</td>
+                    <td>$ <output>2.00</output></td>
+                </tr>
+                <tr>
+                    <td>VAT 20%</td>
+                    <td>$ <output>42.00</output></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$ <output>254.00</output></td>
+                </tr>
+                
+            </table>
+            <br>
+
+            </div>
+            <button class="crt-btn">View Cart</button>
+            <button class="crt-btn">Checkout</button>
+
         </div>
     </div>
 

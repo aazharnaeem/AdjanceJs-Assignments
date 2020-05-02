@@ -44,3 +44,48 @@ p{
   .shoe:hover .middle {
     opacity: 1;
   }
+
+
+  #crt{
+    border: solid;
+    border-width: 1.0px;
+    position: absolute;
+    opacity: 0;
+    background-image: url(Images/cer-bg.jpeg);
+    }
+#crt-low>p{
+
+    opacity: 1;
+    font-size: 15px;
+}
+  #crt-up{
+      border: solid;
+      border-width: 1.0px;
+      padding-left: 150px;
+    }
+    #crt-low{
+        border: solid;
+        border-width: 0.6px;
+        border-bottom: none;
+        display: flex;
+        font-size: 15px;
+    }
+    .cut-btn{
+        border: none;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    #icn{
+        font-size: 40px;
+    }
+#crt-end{
+    padding-left: 100px;
+    
+}
+.crt-btn{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+}
