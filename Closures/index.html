@@ -15,10 +15,10 @@
 
     <div id="Whole">
         <div class="shoe">
-            <img src="./Images/1.jpg" alt="" class="im" id="im1"   onclick="cart()"  > 
+            <img src="./Images/1.jpg" alt="" class="im" id="im1" > 
             <div class="middle">
             <button class="hov">🤎 </button>
-            <button class="hov" id="add1" onclick="addToCart(this)">Add To Cart</button>
+            <button class="hov" id="add1" onclick="addToCart(this),addCrt(this)">Add To Cart</button>
             <button class="hov">&#8646;</button>
         </div>
             <p>lorem isspum dolor dummy</p>
@@ -28,32 +28,35 @@
             <img src="./Images/2.jpeg" alt="" class="im" id="im2">
             <div class="middle">
                 <button class="hov">🤎 </button>
-                <button class="hov" id="add2" onclick="addToCart(this)">Add To Cart</button>
+                <button class="hov" id="add2" onclick="addToCart(this),addCrt(this)">Add To Cart</button>
                 <button class="hov">&#8646;</button>
             </div>
             <p>lorem isspum dolor dummy</p>
-            $<output id="im2-price">123.00</output>
+            $<output id="im2-price">132.00</output>
         </div>
         <div class="shoe">
             <img src="./Images/3.jpg" alt="" class="im" id="im3">
             <div class="middle">
                 <button class="hov">🤎 </button>
-                <button class="hov" id="add3" onclick="addToCart(this)">Add To Cart</button>
+                <button class="hov" id="add3" onclick="addToCart(this),addCrt(this)">Add To Cart</button>
                 <button class="hov">&#8646;</button>
             </div>
             <p>lorem isspum dolor dummy</p>
-            $<output id="im3-price">124.00</output>
+            $<output id="im3-price">142.00</output>
         </div>
         <div class="shoe">
-            <img src="./Images/4.jpeg" alt="" class="im" id="im4">
+            <img src="./Images/4.jpeg" alt="" class="im" id="im4" >
             <div class="middle">
                 <button class="hov">🤎 </button>
-                <button class="hov" id="add4" onclick="addToCart(this)">Add To Cart</button>
+                <button class="hov" id="add4" onclick="addToCart(this),addCrt(this)">Add To Cart</button>
                 <button class="hov">&#8646;</button>
             </div>
             <p>lorem isspum dolor dummy</p>
-            $<output id="im4-price">125.00</output>
+            $<output id="im4-price">152.00</output>
         </div>
+        <br>
+        <br>
+        <br>
 
         <div id="crt">
             <div id="crt-up">
@@ -67,13 +70,13 @@
                 <img src="./Images/2.jpeg" alt="" height="80px" width="80px" id="crt-img">
                   <tr>
                       <td>lorem</td>
-                      <td>x</td>
-                      <td> $<output>254.00</output></td>
+                      <td><output id="mul">0</output>x</td>
+                      <td>$<output id="mul2">0.0</output></td>
                       <td><button class="cut-btn" onclick="clos()">&#x2716;</button></td>
                   </tr>
                   <tr>
                       <td>ippsum dolor</td>
-                      <td>1</td>
+                      <td></td>
                       <td></td>
                   </tr>
                   <tr>
@@ -87,19 +90,19 @@
             <table>
                 <tr>
                     <td>Sub Total</td>
-                    <td>$ <output >210.00</output></td>
+                    <td>$ <output id="subTtl" >0.0</output></td>
                 </tr>
                 <tr>
                     <td>Eco Tax(-2.00)</td>
-                    <td>$ <output>2.00</output></td>
+                    <td>$ <output id="EcoT">0.0</output></td>
                 </tr>
                 <tr>
                     <td>VAT 20%</td>
-                    <td>$ <output>42.00</output></td>
+                    <td>$ <output id="Vat">0.0</output></td>
                 </tr>
                 <tr>
                     <td>Total</td>
-                    <td>$ <output id="ttl-out">254.00</output></td>
+                    <td>$ <output id="ttl-out">0.0</output></td>
                 </tr>
                 
             </table>
@@ -126,9 +129,9 @@
                 <td> <img src="./Images/2.jpeg" alt="" height="80px" width="80px" id="lst-img"></td>
                 <td> <output> lorem ippsum dolor</output> </td>
                 <td> product 11</td>
-                <td> <output id="qun" >0</output> <button id="q-add" onclick="qun()"> &#x293D; </button> <button id="q-rem">  &#x24E7;</button> </td>
-                <td> $<output id="prc-unit" >254.00</output> </td>
-                <td> $<output id="ttl">254.00</output></td>
+                <td> <output id="qun" >0</output> <button id="q-add" onclick="qun()"> &#x293D; </button> <button id="q-rem" onclick="rem()">  &#x24E7;</button> </td>
+                <td> $<output id="prc-unit" >0.0</output> </td>
+                <td> $<output id="ttl">0.0</output></td>
             </tr>
             </table>
 

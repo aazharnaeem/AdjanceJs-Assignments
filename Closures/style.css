@@ -18,6 +18,9 @@
 .shoe{
     display: inline-block;
     padding-right: 8px;
+    border: solid;
+    border-width: 0.6px;
+    padding: 10px 10px 10px 10px;
 }
 .im{
     height: 250px;
@@ -50,7 +53,6 @@ p{
     border: solid;
     border-width: 1.0px;
     position: absolute;
-    opacity: 0;
     margin-left: 1100px;
     top: 50px;
     background-image: url(Images/cer-bg.jpeg);
